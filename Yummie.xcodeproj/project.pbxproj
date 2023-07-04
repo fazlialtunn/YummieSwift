@@ -11,6 +11,7 @@
 		8B2518E72A518EFE0040F89C /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2518E62A518EFE0040F89C /* UIViewExtension.swift */; };
 		8B2518E92A518FF70040F89C /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2518E82A518FF70040F89C /* OnboardingSlide.swift */; };
 		8B2518EB2A5191F00040F89C /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2518EA2A5191F00040F89C /* OnboardingCollectionViewCell.swift */; };
+		8B67436C2A548766003031BA /* DishDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B67436B2A548766003031BA /* DishDetailViewController.swift */; };
 		8BD26BDB2A5368E1003A97F8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD26BDA2A5368E1003A97F8 /* HomeViewController.swift */; };
 		8BD26BE02A536FAF003A97F8 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD26BDE2A536FAF003A97F8 /* CategoryCollectionViewCell.swift */; };
 		8BD26BE12A536FAF003A97F8 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BD26BDF2A536FAF003A97F8 /* CategoryCollectionViewCell.xib */; };
@@ -20,6 +21,8 @@
 		8BEBDB752A54393B00182C5C /* DishPortraitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBDB732A54393B00182C5C /* DishPortraitCollectionViewCell.swift */; };
 		8BEBDB762A54393B00182C5C /* DishPortraitCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BEBDB742A54393B00182C5C /* DishPortraitCollectionViewCell.xib */; };
 		8BEBDB782A543BB200182C5C /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBDB772A543BB200182C5C /* Dish.swift */; };
+		8BEBDB802A54558100182C5C /* DishLandscapeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBDB7E2A54558100182C5C /* DishLandscapeCollectionViewCell.swift */; };
+		8BEBDB812A54558100182C5C /* DishLandscapeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BEBDB7F2A54558100182C5C /* DishLandscapeCollectionViewCell.xib */; };
 		8BFEDDDE2A517AF100DC9FAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFEDDDD2A517AF100DC9FAF /* AppDelegate.swift */; };
 		8BFEDDE02A517AF100DC9FAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFEDDDF2A517AF100DC9FAF /* SceneDelegate.swift */; };
 		8BFEDDE52A517AF100DC9FAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFEDDE32A517AF100DC9FAF /* Main.storyboard */; };
@@ -34,6 +37,7 @@
 		8B2518E62A518EFE0040F89C /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		8B2518E82A518FF70040F89C /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
 		8B2518EA2A5191F00040F89C /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		8B67436B2A548766003031BA /* DishDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetailViewController.swift; sourceTree = "<group>"; };
 		8BD26BDA2A5368E1003A97F8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8BD26BDE2A536FAF003A97F8 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		8BD26BDF2A536FAF003A97F8 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -43,6 +47,8 @@
 		8BEBDB732A54393B00182C5C /* DishPortraitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishPortraitCollectionViewCell.swift; sourceTree = "<group>"; };
 		8BEBDB742A54393B00182C5C /* DishPortraitCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishPortraitCollectionViewCell.xib; sourceTree = "<group>"; };
 		8BEBDB772A543BB200182C5C /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		8BEBDB7E2A54558100182C5C /* DishLandscapeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishLandscapeCollectionViewCell.swift; sourceTree = "<group>"; };
+		8BEBDB7F2A54558100182C5C /* DishLandscapeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishLandscapeCollectionViewCell.xib; sourceTree = "<group>"; };
 		8BFEDDDA2A517AF100DC9FAF /* Yummie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yummie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFEDDDD2A517AF100DC9FAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BFEDDDF2A517AF100DC9FAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +89,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		8B67436A2A548742003031BA /* DishDetail */ = {
+			isa = PBXGroup;
+			children = (
+				8B67436B2A548766003031BA /* DishDetailViewController.swift */,
+			);
+			path = DishDetail;
+			sourceTree = "<group>";
+		};
 		8BD26BD92A5368C2003A97F8 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +108,7 @@
 		8BD26BDC2A536F6C003A97F8 /* CollectionViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				8BEBDB792A5452F600182C5C /* DishLandscapeCollectionViewCell */,
 				8BEBDB722A5438E000182C5C /* DishPortraitCollectionViewCell */,
 				8BD26BDD2A536F79003A97F8 /* CategoryCollectionViewCell */,
 			);
@@ -124,6 +139,15 @@
 				8BEBDB742A54393B00182C5C /* DishPortraitCollectionViewCell.xib */,
 			);
 			path = DishPortraitCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		8BEBDB792A5452F600182C5C /* DishLandscapeCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8BEBDB7E2A54558100182C5C /* DishLandscapeCollectionViewCell.swift */,
+				8BEBDB7F2A54558100182C5C /* DishLandscapeCollectionViewCell.xib */,
+			);
+			path = DishLandscapeCollectionViewCell;
 			sourceTree = "<group>";
 		};
 		8BFEDDD12A517AF100DC9FAF = {
@@ -174,6 +198,7 @@
 		8BFEDDF22A5181D900DC9FAF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8B67436A2A548742003031BA /* DishDetail */,
 				8BD26BD92A5368C2003A97F8 /* Home */,
 				8BFEDDF42A5181EC00DC9FAF /* Onboarding */,
 			);
@@ -271,6 +296,7 @@
 				8BFEDDEA2A517AF300DC9FAF /* LaunchScreen.storyboard in Resources */,
 				8BEBDB762A54393B00182C5C /* DishPortraitCollectionViewCell.xib in Resources */,
 				8BFEDDE72A517AF300DC9FAF /* Assets.xcassets in Resources */,
+				8BEBDB812A54558100182C5C /* DishLandscapeCollectionViewCell.xib in Resources */,
 				8BFEDDE52A517AF100DC9FAF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,8 +356,10 @@
 				8BFEDDDE2A517AF100DC9FAF /* AppDelegate.swift in Sources */,
 				8BFEDDE02A517AF100DC9FAF /* SceneDelegate.swift in Sources */,
 				8B2518E72A518EFE0040F89C /* UIViewExtension.swift in Sources */,
+				8B67436C2A548766003031BA /* DishDetailViewController.swift in Sources */,
 				8BFEDDF62A51821F00DC9FAF /* OnboardingViewController.swift in Sources */,
 				8BD26BDB2A5368E1003A97F8 /* HomeViewController.swift in Sources */,
+				8BEBDB802A54558100182C5C /* DishLandscapeCollectionViewCell.swift in Sources */,
 				8BEBDB6C2A540E2800182C5C /* DishCategory.swift in Sources */,
 				8BEBDB712A54244C00182C5C /* CardView.swift in Sources */,
 				8B2518EB2A5191F00040F89C /* OnboardingCollectionViewCell.swift in Sources */,
