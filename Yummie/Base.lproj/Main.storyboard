@@ -403,6 +403,41 @@
             </objects>
             <point key="canvasLocation" x="2159.5419847328244" y="3.5211267605633805"/>
         </scene>
+        <!--List Dishes View Controller-->
+        <scene sceneID="MJo-Ln-BRr">
+            <objects>
+                <viewController storyboardIdentifier="ListDishesViewController" id="NCu-96-9kL" customClass="ListDishesViewController" customModule="Yummie" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Okv-AW-Iil">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="C6V-ZO-aJ1">
+                                <rect key="frame" x="0.0" y="59" width="393" height="793"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="NCu-96-9kL" id="8wK-sy-g5E"/>
+                                    <outlet property="delegate" destination="NCu-96-9kL" id="9qM-KZ-sSL"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="UUp-Aa-mfe"/>
+                        <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="C6V-ZO-aJ1" secondAttribute="bottom" id="FVn-E2-dvo"/>
+                            <constraint firstItem="C6V-ZO-aJ1" firstAttribute="trailing" secondItem="UUp-Aa-mfe" secondAttribute="trailing" id="Q4c-VH-9s8"/>
+                            <constraint firstItem="C6V-ZO-aJ1" firstAttribute="top" secondItem="UUp-Aa-mfe" secondAttribute="top" id="Vgi-VR-rOZ"/>
+                            <constraint firstItem="C6V-ZO-aJ1" firstAttribute="leading" secondItem="UUp-Aa-mfe" secondAttribute="leading" id="zql-WA-5Sw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="C6V-ZO-aJ1" id="u7x-Gh-vCe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oHT-Bf-4iE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2884.7328244274809" y="3.5211267605633805"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="2t4-Qa-GXP">
             <objects>
