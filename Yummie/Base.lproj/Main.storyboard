@@ -288,8 +288,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Yummie" id="new-cl-fIk">
+                        <barButtonItem key="backBarButtonItem" title=" " id="UVc-i2-zUA"/>
                         <barButtonItem key="rightBarButtonItem" title="Item" image="cart.circle.fill" catalog="system" id="77P-RD-iZI">
                             <color key="tintColor" red="0.8078432083" green="0.2823529541" blue="0.13333332540000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <connections>
+                                <segue destination="LUR-56-gBH" kind="show" id="N0n-G4-gwk"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -437,6 +441,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oHT-Bf-4iE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2884.7328244274809" y="3.5211267605633805"/>
+        </scene>
+        <!--List Orders View Controller-->
+        <scene sceneID="eio-AI-tOy">
+            <objects>
+                <viewController storyboardIdentifier="ListOrdersViewController" id="LUR-56-gBH" customClass="ListOrdersViewController" customModule="Yummie" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OCb-bM-KIW">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="IAm-Zq-fsx">
+                                <rect key="frame" x="0.0" y="103" width="393" height="749"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="LUR-56-gBH" id="xjB-ac-7vs"/>
+                                    <outlet property="delegate" destination="LUR-56-gBH" id="6N4-D0-evW"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mfW-9d-oWs"/>
+                        <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="IAm-Zq-fsx" secondAttribute="bottom" id="EAV-mI-a3Q"/>
+                            <constraint firstItem="IAm-Zq-fsx" firstAttribute="top" secondItem="mfW-9d-oWs" secondAttribute="top" id="IHO-qz-ATn"/>
+                            <constraint firstItem="IAm-Zq-fsx" firstAttribute="trailing" secondItem="mfW-9d-oWs" secondAttribute="trailing" id="dVQ-yt-ROa"/>
+                            <constraint firstItem="IAm-Zq-fsx" firstAttribute="leading" secondItem="mfW-9d-oWs" secondAttribute="leading" id="vPc-0l-QWm"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="wIz-da-ypm"/>
+                    <connections>
+                        <outlet property="tableView" destination="IAm-Zq-fsx" id="RO7-8B-nda"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r8o-WZ-hun" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1478.6259541984732" y="684.50704225352115"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="2t4-Qa-GXP">
