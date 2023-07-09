@@ -32,6 +32,9 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let networkService = NetworkService()
+        let request = networkService.createRequest(route: .temp, method: .get,parameters: ["firstName":"Fazli","lastName":"Altun"])
+        print("The url is \(request?.url)")
         categoryCollectionView.dataSource = self
         categoryCollectionView.delegate = self
         popularCollectionView.dataSource = self
