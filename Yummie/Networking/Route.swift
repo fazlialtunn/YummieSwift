@@ -17,7 +17,7 @@ enum Route {
     var description: String {
         switch self {
             
-        case .temp: return "/temp"
+        case .temp: return "/dish-categories"
             
         }
     }
