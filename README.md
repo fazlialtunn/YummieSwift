@@ -5,13 +5,13 @@ This project uses nearly all core concepts of Swift.
 
 # Features
 
--Onboarding Screens with Multiple Slides
--Advanced TableView & CollectionView Usage
--Custom API Connection
--URLRequest
--KingFisher
--ProgressHUD
--IQKeyboardManagerSwift
+- Onboarding Screens with Multiple Slides
+- Advanced TableView & CollectionView Usage
+- Custom API Connection
+- URLRequest
+- KingFisher
+- ProgressHUD
+- IQKeyboardManagerSwift
 
 # Screenshots
 <img width="322" alt="Screenshot 2023-07-11 at 00 54 50" src="https://github.com/fazlialtunn/YummieSwift/assets/32793348/c00eadf1-dfaa-404a-b162-45504f25f004">
