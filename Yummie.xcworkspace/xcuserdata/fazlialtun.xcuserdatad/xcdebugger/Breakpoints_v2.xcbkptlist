@@ -3,4 +3,54 @@
    uuid = "062E1742-4E5E-4B6D-B5A5-9FA834C9BC71"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C73D54AC-4875-4267-9B16-1CE87B15B6EA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yummie/Networking/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "handleResponse(result:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C73D54AC-4875-4267-9B16-1CE87B15B6EA - ef12c73d30204448"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Yummie.NetworkService.createRequest(route: Yummie.Route, method: Yummie.Method, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) -&gt; Swift.Optional&lt;Foundation.URLRequest&gt;"
+                  moduleName = "Yummie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fazlialtun/Desktop/Programming/SWIFT/Yummie/Yummie/Networking/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "500">
+               </Location>
+               <Location
+                  uuid = "C73D54AC-4875-4267-9B16-1CE87B15B6EA - 2aae8953d673a069"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Yummie.NetworkService.handleResponse&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(result: Swift.Optional&lt;Swift.Result&lt;Foundation.Data, Swift.Error&gt;&gt;, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Yummie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fazlialtun/Desktop/Programming/SWIFT/Yummie/Yummie/Networking/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "872">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

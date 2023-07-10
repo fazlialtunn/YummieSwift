@@ -16,6 +16,8 @@
 		8B6743732A54BB1E003031BA /* DishListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6743712A54BB1E003031BA /* DishListTableViewCell.swift */; };
 		8B6743742A54BB1E003031BA /* DishListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B6743722A54BB1E003031BA /* DishListTableViewCell.xib */; };
 		8B6743772A54C248003031BA /* ListDishesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6743762A54C248003031BA /* ListDishesViewController.swift */; };
+		8B786B242A5C688900D90A91 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B786B232A5C688900D90A91 /* ApiResponse.swift */; };
+		8B786B282A5C81F500D90A91 /* AllDishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B786B272A5C81F500D90A91 /* AllDishes.swift */; };
 		8BA43F112A56DF5D00C72405 /* ListOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA43F102A56DF5D00C72405 /* ListOrdersViewController.swift */; };
 		8BA43F132A56E2DA00C72405 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA43F122A56E2DA00C72405 /* Order.swift */; };
 		8BA43F162A56F77700C72405 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA43F152A56F77700C72405 /* NetworkService.swift */; };
@@ -52,6 +54,8 @@
 		8B6743712A54BB1E003031BA /* DishListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishListTableViewCell.swift; sourceTree = "<group>"; };
 		8B6743722A54BB1E003031BA /* DishListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishListTableViewCell.xib; sourceTree = "<group>"; };
 		8B6743762A54C248003031BA /* ListDishesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDishesViewController.swift; sourceTree = "<group>"; };
+		8B786B232A5C688900D90A91 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		8B786B272A5C81F500D90A91 /* AllDishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDishes.swift; sourceTree = "<group>"; };
 		8BA43F102A56DF5D00C72405 /* ListOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrdersViewController.swift; sourceTree = "<group>"; };
 		8BA43F122A56E2DA00C72405 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		8BA43F152A56F77700C72405 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
@@ -158,6 +162,7 @@
 				8BA43F172A57040B00C72405 /* Route.swift */,
 				8BA43F192A57047C00C72405 /* Method.swift */,
 				8BFB32AD2A5C5C7B0082A844 /* AppError.swift */,
+				8B786B232A5C688900D90A91 /* ApiResponse.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 				8BEBDB6B2A540E2800182C5C /* DishCategory.swift */,
 				8BEBDB772A543BB200182C5C /* Dish.swift */,
 				8BA43F122A56E2DA00C72405 /* Order.swift */,
+				8B786B272A5C81F500D90A91 /* AllDishes.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -428,12 +434,14 @@
 				8BD26BE02A536FAF003A97F8 /* CategoryCollectionViewCell.swift in Sources */,
 				8B2518E92A518FF70040F89C /* OnboardingSlide.swift in Sources */,
 				8BEBDB6E2A540FFC00182C5C /* StringExtension.swift in Sources */,
+				8B786B282A5C81F500D90A91 /* AllDishes.swift in Sources */,
 				8BFEDDDE2A517AF100DC9FAF /* AppDelegate.swift in Sources */,
 				8BA43F1A2A57047C00C72405 /* Method.swift in Sources */,
 				8BFEDDE02A517AF100DC9FAF /* SceneDelegate.swift in Sources */,
 				8B2518E72A518EFE0040F89C /* UIViewExtension.swift in Sources */,
 				8B67436C2A548766003031BA /* DishDetailViewController.swift in Sources */,
 				8BFEDDF62A51821F00DC9FAF /* OnboardingViewController.swift in Sources */,
+				8B786B242A5C688900D90A91 /* ApiResponse.swift in Sources */,
 				8BD26BDB2A5368E1003A97F8 /* HomeViewController.swift in Sources */,
 				8BA43F182A57040B00C72405 /* Route.swift in Sources */,
 				8BA43F162A56F77700C72405 /* NetworkService.swift in Sources */,
